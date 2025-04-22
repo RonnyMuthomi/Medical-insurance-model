@@ -44,6 +44,16 @@ This project explores the **Medical Cost Personal Dataset** to predict insurance
 
 ---
 
+## 📊 Methodology
+
+### 1. Data Preprocessing
+- Handled missing values
+- Converted numerical features appropriately
+- Removed duplicates
+- Checked for outliers
+
+---
+
 ## 📈 Exploratory Data Analysis (EDA)
 
 - Relationship plots for bmi and smoker features
