@@ -46,17 +46,40 @@ This project explores the **Medical Cost Personal Dataset** to predict insurance
 
 ## 📈 Exploratory Data Analysis (EDA)
 
-- Distribution plots for numeric features
-- Boxplots for detecting outliers
+- Relationship plots for bmi and smoker features
+
+  <img src="https://github.com/user-attachments/assets/871fea5d-02e1-4ef1-ad34-aa4a50f6e6fd" height="250" />
+
+
+  
+- Barplot to show impact of smoking on medical insurance
+
+  <img src="https://github.com/user-attachments/assets/569abf4d-b9f0-4839-8d3d-112af97e50ed" height="250" />
+
+
+
 - Correlation heatmap
-- Insights on how smoking, BMI, and number of children affect charges
+
+<img src="https://github.com/user-attachments/assets/63f4aed2-1f78-450e-9c5e-574579abc694" height="250" />
+  
+- Insights on how  number of children affect charges
+
+  <img src="https://github.com/user-attachments/assets/931d1342-281f-429c-88a0-8b6ad1e4c13fr" height="250" />
+  
 
 ---
+
+##     Findings
+
+✅ Family size does not have a consistent impact on medical charges.
+✅ Families with 2 and 3 children have the highest medical charges.
+✅ Southeast region has the highest medical charges.
+✅ Northwest & Southwest regions have almost similar charges, likely due to similar demographic or insurance factors.
 
 ## 🏗️ Model Building
 
 - One-Hot Encoding for categorical variables (`sex`, `region`, `smoker`)
-- Feature scaling (if needed)
+- Feature scaling (used StandardScaler)
 - Train-Test Split (80/20)
 - Linear Regression Model using scikit-learn
 - Model Evaluation:
@@ -74,6 +97,6 @@ This project explores the **Medical Cost Personal Dataset** to predict insurance
 
 ---
 
-## 📂 Folder Structure
+
 
 
